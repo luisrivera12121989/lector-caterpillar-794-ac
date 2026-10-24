@@ -1,0 +1,23 @@
+LECTOR PWA CATERPILLAR 794 AC — ARCHIVOS PARA GITHUB PAGES
+
+Estos archivos están preparados para alojar el lector como sitio estático.
+No subas el proyecto completo de Replit ni la carpeta .git; usa estos archivos.
+
+PASOS:
+1. Crea un repositorio público en https://github.com/new
+2. Entra al repositorio y elige Add file > Upload files.
+3. Descomprime este ZIP y sube el CONTENIDO de esta carpeta a la raíz del repositorio:
+   index.html, manifest.webmanifest, pwa.js, sw.js, robots.txt, favicon.svg,
+   .nojekyll e icons/
+4. Confirma con Commit changes.
+5. Ve a Settings > Pages.
+6. En Build and deployment, elige Deploy from a branch.
+7. Selecciona la rama main y la carpeta /(root), y guarda.
+8. Espera a que GitHub Pages publique el sitio. La URL será parecida a:
+   https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/
+
+NOTAS:
+- La aplicación usa rutas relativas, por lo que está preparada para una URL de GitHub Pages bajo una ruta de repositorio.
+- El sitio y el código serán públicos si el repositorio es público.
+- La lectura en voz alta utiliza las capacidades de voz del navegador/dispositivo.
+- Prueba la URL publicada antes de compartirla. Instalar la PWA y la lectura sin conexión dependen del navegador y de que el service worker se registre correctamente.
